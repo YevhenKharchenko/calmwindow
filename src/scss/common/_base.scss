@@ -75,6 +75,7 @@ html {
   line-height: 1.5;
   text-align: center;
   color: #9ea8c7;
+  min-width: fit-content;
 
   @include media(desktop) {
   }
@@ -83,7 +84,7 @@ html {
 .section-title-left-line {
   width: 100%;
   height: 1px;
-  background: linear-gradient(to right, #9ea8c7, transparent);
+  background: linear-gradient(to left, #9ea8c7, transparent);
 
   @include media(desktop) {
   }

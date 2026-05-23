@@ -11,7 +11,6 @@
   margin-right: auto;
 
   @include media(desktop) {
-    padding-bottom: 120px;
     max-width: 1440px;
   }
 }
@@ -22,39 +21,25 @@
 }
 
 .about-content-wrapper {
-  display: flex;
-  flex-direction: column;
-  gap: 64px;
-
   @include media(desktop) {
-    flex-direction: row;
-    align-items: end;
   }
 }
 
 .about-subtitle {
-  font-size: 56px;
-  margin-bottom: 32px;
-
   @include media(desktop) {
-    font-size: 80px;
-  }
-}
-
-.about-secondary-subtitle {
-  font-size: 40px;
-
-  @include media(desktop) {
-    font-size: 48px;
+    max-width: 916px;
+    margin-left: auto;
+    margin-right: auto;
   }
 }
 
 .about-text {
-  font-family: 'Onest', sans-serif;
-  font-weight: 200;
+  font-family: 'Encode Sans Condensed', sans-serif;
+  font-weight: 275;
   font-size: 20px;
-  line-height: 2;
-  color: #e8ecef;
+  line-height: 1.5;
+  text-align: center;
+  color: #9ea8c7;
 
   @include media(desktop) {
   }

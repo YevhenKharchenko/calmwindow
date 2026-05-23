@@ -1,6 +1,4 @@
 .gameplay-section {
-  background: #161d22;
-
   @include media(desktop) {
   }
 }
@@ -15,7 +13,6 @@
   position: relative;
 
   @include media(desktop) {
-    padding-bottom: 120px;
     max-width: 1440px;
   }
 }
@@ -24,12 +21,7 @@
 }
 
 .gameplay-subtitle {
-  font-size: 40px;
-  margin-bottom: 64px;
-
   @include media(desktop) {
-    font-size: 48px;
-    text-align: center;
   }
 }
 
@@ -56,7 +48,7 @@
   max-width: 290px;
 
   @include media(desktop) {
-    max-width: 400px;
+    max-width: 900px;
   }
 }
 
@@ -76,7 +68,7 @@
     max-width: 1200px;
     gap: 18px;
     position: absolute;
-    top: 528px;
+    top: 372px;
     left: 50%;
     transform: translateX(-50%);
     z-index: 1;
