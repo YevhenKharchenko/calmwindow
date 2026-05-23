@@ -47,6 +47,8 @@
 }
 
 .footer-list-item {
+  @include media(desktop) {
+  }
 }
 
 .footer-link {
